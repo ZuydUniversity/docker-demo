@@ -34,7 +34,7 @@ Let op, Docker containers zijn geen virtuele machines. Bij VMs wordt in iedere m
 
 Een voorbeeld voor het `run` command:
 ```docker
-docker run -e MYSQL_DATABASE=AppDb --name app_db -v /some/dir:/var/lib/mysql -p 8000:3306 -d mariadb:latest
+docker run -e MYSQL_DATABASE=AppDb -e MARIADB_ROOT_PASSWORD=secret_pass --name app_db -v /some/dir:/var/lib/mysql -p 8000:3306 -d mariadb:latest
 ```
 ### Start/Stop/Kill/Rm
 De `start`/`stop`/`kill`/`rm` commandos worden gebruikt om de containers aan en uit te zetten en om containers te verwijderen. Deze commandos hebben altijd het patroon `docker <command> <container_name/container_id>`. Bijvoorbeeld `docker start app_db`.
