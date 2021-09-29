@@ -236,7 +236,7 @@ De Dockerfile beschrijft hoe een image opgebouwd wordt. Zie de Dockerfiles in de
 ## Docker-Compose
 Docker-compose wordt gebruikt om meerdere containers samen te laten draaien. Deze worden gespecificeerd door middel van YAML files. De meeste opties die gebruikt worden in docker-compose komen overeen met de opties van het `run` commando (o.a. volumes, ports, etc.). Voor meer details zie de docker-compose.yml in deze repository.
 
-De containers kunnen gestart worden door het commando `docker-compose up -d`.
+De containers kunnen gestart worden door het commando `docker compose up -d`.
 
 ## Docker & Python/Flask
 Er zijn bestaande docker images beschikbaar voor Python ([link](https://hub.docker.com/_/python/)). Ook zijn er specifiekere images beschikbaar, zoals bijv. van Tensorflow. Gebruik deze waar toepasselijk. Naast Python zijn er ook bestaande containers voor de meeste databases en andere systemen waarmee de demonstrators gekoppeld worden.
