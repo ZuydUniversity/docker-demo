@@ -13,7 +13,8 @@ Docker is een platform dat een geïsoleerde omgeving bied voor (server)applicati
 ### Docker tegenover Virtual Machines
 Let op, Docker containers zijn geen virtuele machines. Bij VMs wordt in iedere machine een apart operating system geïnstalleerd. Dit is bij Docker niet het geval. Alleen de applicatie en de dependencies worden geïsoleerd.
 
-![docker-vs-vms](https://i2.wp.com/www.docker.com/blog/wp-content/uploads/Blog.-Are-containers-..VM-Image-1.png?resize=1024%2C435&ssl=1)
+![docker](https://www.docker.com/wp-content/uploads/2021/11/docker-containerized-appliction-blue-border_2.png)
+![vm](https://www.docker.com/wp-content/uploads/2021/11/container-vm-whatcontainer_2.png)
 
 ## Basis Commandos
 - `docker --help` of `docker <subcommand> --help`: Geeft informatie over de beschikbare (sub-)commandos
